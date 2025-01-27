@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juego de Preguntas</title>
+  <link rel="stylesheet" href="juego.css">
+</head>
+<body onload="comenzarCuentaRegresiva()">
+  <div class="container">
+    <h1>Juego de Preguntas</h1>
+    <h3>Hecho por Simon&#x1F61C;</h3>
+    <div id="quiz"></div>
+    <div id="result" class="result"></div>
+    <button id="submit" class="button">Enviar</button>
+    <button id="retry" class="button hide">Reintentar</button>
+    <button id="showAnswer" class="button hide">Mostrar Respuestar</button>
+  <h2>Responde las preguntas lo mas rapido que puedas <span id="cuentaRegresiva"></span> </h2>
+
+  </div>
+
+    <audio id="audioFinal">
+      <source src="Audios/alarma.mp3" type="audio/mpeg">
+      Sonido no habilitado
+    </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
