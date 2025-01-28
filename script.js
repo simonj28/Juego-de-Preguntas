@@ -123,6 +123,7 @@ const quizData = [
     showAnswerButton.style.display = 'none';
     resultContainer.innerHTML = '';
     displayQuestion();
+    location.reload();
   }
   
   function showAnswer() {
